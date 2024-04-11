@@ -35,6 +35,7 @@ body {
 /* Steps text */
 .steps-text {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .steps-text h2 {
@@ -42,9 +43,32 @@ body {
     margin-bottom: 10px;
 }
 
+.steps-text ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
 /* username */
+
+.create-username {
+    text-align: center;
+}
 
 .create-username h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.start-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Game area */
+.game-area {
+    text-align: center;
+}
+
+#next {
+    margin-top: 40px;
 }
