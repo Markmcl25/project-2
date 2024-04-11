@@ -1,0 +1,43 @@
+/* Global styles */
+body {
+    font-family: 'Bungee Spice';
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+/* Container for the quiz content */
+.instructions-area {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+/* Introduction text */
+.instructions-text {
+    text-align: center;
+}
+
+.instructions-text h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+
+}
+
+.instructions-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Steps text */
+.steps-text {
+    margin-bottom: 30px;
+}
+
+.steps-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
