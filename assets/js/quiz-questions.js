@@ -1,1 +1,7 @@
+// Quiz data
 
+const quizQuestions = [
+
+
+    
+]
