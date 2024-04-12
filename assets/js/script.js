@@ -5,6 +5,8 @@ const nextButton = document.getElementById('next');
 const questionContainer = document.getElementById('question');
 const answerButtons = document.getElementById('answer-button');
 
+// Event listener for start button
+
 startButton.addEventListener('click', () => {
 
     instructionsArea.style.display = 'none';
