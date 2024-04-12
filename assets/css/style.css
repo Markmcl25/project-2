@@ -67,6 +67,8 @@ body {
 /* Game area */
 .game-area {
     text-align: center;
+    /* Initially hide questions */
+    display: none;
 }
 
 #next {
