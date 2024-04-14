@@ -3,7 +3,7 @@ body {
     font-family: 'Bungee Spice';
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #96ceb4;
 }
 
 /* Container for the quiz content */
@@ -11,7 +11,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: azure;
+    background-color: #ffeead;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
     margin-bottom: 100px;
@@ -76,6 +76,12 @@ body {
     text-align: center;
     /* Initially hide questions */
     display: none;
+    margin-top: 300px;
+    background-color: #ffeead;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin: 0 auto;
     margin-top: 300px;
 }
 
