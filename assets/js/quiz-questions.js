@@ -106,90 +106,90 @@ const quizQuestions = [
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "What do the panda’s eat?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Italian" },
+            { text: "Indian" },
+            { text: "Bamboo", correct: true },
+            { text: "Hotdogs" }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Name the smallest breed of the dog",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "German Shepherd" },
+            { text: "Labrador" },
+            { text: "Pug" },
+            { text: "Chihuahua", correct: true }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Raisins originated from which fruit?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Grapes", correct: true },
+            { text: "Pears" },
+            { text: "Banana" },
+            { text: "None of the above" }
         ]
     },
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "What is the name of the game played at Wimbledon?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
-        ]
-    },
-
-    {
-        question: "Life of Pi, was a famous book by which writer?",
-        answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Football" },
+            { text: "Tennis", correct: true },
+            { text: "Polo" },
+            { text: "Cricket" }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Name the Disney character who flies sitting on a carpet",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Aladdin", correct: true },
+            { text: "Micky Mouse" },
+            { text: "Snow White" },
+            { text: "Dumbo" }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "How many sides are there in Octagon?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "10" },
+            { text: "5" },
+            { text: "8", correct: true },
+            { text: "6" }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Name the painter who painted Mona Lisa.",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Leonardo Da Vinci", correct: true  },
+            { text: "Pablo Picasso" },
+            { text: "Vincent van Gogh"},
+            { text: "Claude Monet" }
+        ]
+    },
+
+    {
+        question: "Name the coldest place in the world.",
+        answers: [
+            { text: "France" },
+            { text: "Ireland" },
+            { text: "Antarctica", correct: true },
+            { text: "UK" }
         ]
     },
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "How many players are there in a netball game?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "7", correct: true},
+            { text: "10" },
+            { text: "20" },
+            { text: "15" }
         ]
     },
 
