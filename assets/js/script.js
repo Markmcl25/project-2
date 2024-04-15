@@ -76,3 +76,12 @@ function endQuiz() {
     scoreDisplay.textContent = `Score: ${score}`; // Display the final score
     scoreDisplay.style.display = 'block'; // Show the score display
 }
+// Counts the amout of answers done correctly
+let correctAnswers = 0;
+quizQuestions.forEach (question => {
+    question.answers.forEach(answer => {
+        if (answer.correct) {
+            correctAnswers++;
+        }
+    })
+})

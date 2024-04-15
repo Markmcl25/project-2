@@ -83,4 +83,7 @@ body {
     z-index: 100;
     font-size: 20px;
     margin-top: 20px;
+    text-align: center;
+    margin: 300px auto;
+    font-size: 100px;
 }
