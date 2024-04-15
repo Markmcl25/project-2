@@ -73,7 +73,7 @@ nextButton.addEventListener('click', () => {
 // Function to end the quiz
 function endQuiz() {
     gameArea.style.display = 'none'; // Hide the game area
-    scoreDisplay.textContent = `Score: ${score}`; // Display the final score
+    scoreDisplay.textContent = `Score: ${score} out of 20`; // Display the final score
     scoreDisplay.style.display = 'block'; // Show the score display
 }
 // Counts the amout of answers done correctly
