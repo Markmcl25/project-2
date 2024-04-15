@@ -48,12 +48,22 @@ const quizQuestions = [
         ]
     },
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "How many legs does a lobster have?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "10", correct: true },
+            { text: "20" },
+            { text: "5"},
+            { text: "17" }
+        ]
+    },
+
+    {
+        question: "How much is the diameter of a basketball hoop?",
+        answers: [
+            { text: "20 inches" },
+            { text: "15 inches" },
+            { text: "18 inches", correct: true },
+            { text: "10 inches" }
         ]
     },
 
@@ -66,32 +76,22 @@ const quizQuestions = [
             { text: "Stephen King" }
         ]
     },
-
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Name the largest state in America.",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Texas" },
+            { text: "New York" },
+            { text: "Alaska", correct: true },
+            { text: "Iowa" }
         ]
     },
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Which school did Harry Potter attend?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
-        ]
-    },
-    {
-        question: "Life of Pi, was a famous book by which writer?",
-        answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Harvard" },
+            { text: "Hogwarts", correct: true  },
+            { text: "Yale"},
+            { text: "None of the above" }
         ]
     },
 
