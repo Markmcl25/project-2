@@ -40,6 +40,7 @@ function showQuestion() {
     questionContainer.textContent = currentQuestion.question;
     answerButtons.innerHTML = ''; // Clear previous answer buttons
 
+
     // Create answer buttons for current question
     currentQuestion.answers.forEach((answer, index) => {
         const button = document.createElement('button');
@@ -54,7 +55,7 @@ function showQuestion() {
         answerButtons.appendChild(button);
     });
 }
-
+// function to show answer picture
 function showAnswerImage(isCorrect) {
     const answerImage = document.getElementById('answer-image');
     if (isCorrect) {

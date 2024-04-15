@@ -75,7 +75,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Score display */
 .score-display {
     z-index: 100;
@@ -85,3 +84,4 @@ body {
     margin: 300px auto;
     font-size: 100px;
 }
+
