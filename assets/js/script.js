@@ -1,3 +1,6 @@
+// Score variable
+let score = 0;
+
 // Event listener for start button
 const startButton = document.getElementById('start-button');
 const gameArea = document.querySelector('.game-area');
@@ -7,8 +10,9 @@ const instructionsArea = document.querySelector('.instructions-area');
 const questionContainer = document.getElementById("question");
 const scoreDisplay = document.getElementById("score");
 
+
 let currentQuestionIndex = 0;
-let score = 0;
+
 
 startButton.addEventListener('click', () => {
     instructionsArea.style.display = 'none';
