@@ -20,31 +20,31 @@ const quizQuestions = [
 },
 
  {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Which big cat is the largest?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Tiger", correct: true },
+            { text: "Lion" },
+            { text: "Puma" },
+            { text: "Leopard" }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Which is the largest planet in the solar system?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Earth" },
+            { text: "Mars" },
+            { text: "Jupiter", correct: true },
+            { text: "Pluto" }
         ]
     },
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "In which city did the Olympic games originate?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Dublin, Ireland" },
+            { text: "Athens, Greece", correct: true },
+            { text: "London, England" },
+            { text: "Paris, France" }
         ]
     },
     {
