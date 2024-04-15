@@ -9,17 +9,17 @@ const quizQuestions = [
         ]
     },
 
-{
-    question: "You're 4th place right now in a race. What place will you be in when you pass the person in 3rd place?",
+    {
+        question: "You're 4th place right now in a race. What place will you be in when you pass the person in 3rd place?",
         answers: [
-            {text: "1st"},
-            {text: "2nd"},
-            {text: "3rd", correct: true},
-            {text: "None of the above"},
+            { text: "1st" },
+            { text: "2nd" },
+            { text: "3rd", correct: true },
+            { text: "None of the above" },
         ]
-},
+    },
 
- {
+    {
         question: "Which big cat is the largest?",
         answers: [
             { text: "Tiger", correct: true },
@@ -52,7 +52,7 @@ const quizQuestions = [
         answers: [
             { text: "10", correct: true },
             { text: "20" },
-            { text: "5"},
+            { text: "5" },
             { text: "17" }
         ]
     },
@@ -68,12 +68,12 @@ const quizQuestions = [
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "Which animal is Baloo in the Jungle Book?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "A Bear", correct: true },
+            { text: "A Cat" },
+            { text: "A Shark" },
+            { text: "A Sheep" }
         ]
     },
     {
@@ -89,19 +89,19 @@ const quizQuestions = [
         question: "Which school did Harry Potter attend?",
         answers: [
             { text: "Harvard" },
-            { text: "Hogwarts", correct: true  },
-            { text: "Yale"},
+            { text: "Hogwarts", correct: true },
+            { text: "Yale" },
             { text: "None of the above" }
         ]
     },
 
     {
-        question: "Life of Pi, was a famous book by which writer?",
+        question: "What is the name of the longest river in the world?",
         answers: [
-            { text: "Cormac McCarthy" },
-            { text: "J.K. Rowling" },
-            { text: "Yann Martel", correct: true },
-            { text: "Stephen King" }
+            { text: "Shannon" },
+            { text: "Nile", correct: true },
+            { text: "Amazon" },
+            { text: "Liffy" }
         ]
     },
 
@@ -192,7 +192,7 @@ const quizQuestions = [
             { text: "Stephen King" }
         ]
     },
-  
+
 
 
 
