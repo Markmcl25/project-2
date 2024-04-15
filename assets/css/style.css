@@ -88,3 +88,8 @@ body {
 #next {
     margin-top: 40px;
 }
+
+.score-display {
+display: none; /* Hide score at first */
+font-size: 20px;
+}
