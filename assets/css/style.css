@@ -9,14 +9,10 @@ body {
 /* Container for the quiz content */
 .instructions-area {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 300px auto; /* Adjusted margin for better centering */
     padding: 20px;
     background-color: #ffeead;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    justify-content: center;
-    margin-top: 300px;
 }
 
 /* Introduction text */
@@ -27,7 +23,6 @@ body {
 .instructions-text h1 {
     font-size: 36px;
     margin-bottom: 25px;
-
 }
 
 .instructions-text p {
@@ -50,8 +45,7 @@ body {
     list-style-type: none; /* Remove bullet points */
 }
 
-/* username */
-
+/* Username */
 .create-username {
     text-align: center;
 }
@@ -59,7 +53,6 @@ body {
 .create-username h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .display-username {
@@ -74,22 +67,20 @@ body {
 /* Game area */
 .game-area {
     text-align: center;
-    /* Initially hide questions */
-    display: none;
-    margin-top: 300px;
+    display: none; /* Initially hide questions */
+    margin: 300px auto; /* Adjusted margin for better centering */
     background-color: #ffeead;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 300px;
 }
 
 #next {
     margin-top: 40px;
 }
 
+/* Score display */
 .score-display {
-display: none; /* Hide score at first */
-font-size: 20px;
+    z-index: 100;
+    font-size: 20px;
+    margin-top: 20px;
 }
