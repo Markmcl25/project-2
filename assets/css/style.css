@@ -67,6 +67,7 @@ body {
 /* Game area */
 .game-area {
     text-align: center;
+    margin-bottom: 50px;
     display: none; /* Initially hide questions */
     margin: 300px auto; /* Adjusted margin for better centering */
     background-color: #ffeead;
@@ -74,9 +75,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#next {
-    margin-top: 40px;
-}
 
 /* Score display */
 .score-display {
