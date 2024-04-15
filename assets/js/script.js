@@ -19,7 +19,7 @@ startButton.addEventListener('click', () => {
 });
 
 // Event listener for username form submission
-document.querySelector(".create-username form").addEventListener("submit", function(event) {
+document.querySelector(".create-username form").addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent form submission
 
     // Get username value
@@ -55,6 +55,16 @@ function showQuestion() {
     });
 }
 
+function showAnswerImage(isCorrect) {
+    const answerImage = document.getElementById('answer-image');
+    if (isCorrect) {
+        answerImage.src = 'assets/images/correct-answer.png';
+    } else {
+        answerImage.src = 'assets/images/wrong-answer.png'
+    }
+    answerImage.style.display = 'block';
+}
+
 // Function to show the next question or end the quiz
 function showNextQuestion() {
     currentQuestionIndex++;
@@ -75,10 +85,11 @@ function endQuiz() {
     gameArea.style.display = 'none'; // Hide the game area
     scoreDisplay.textContent = `Score: ${score} out of 20`; // Display the final score
     scoreDisplay.style.display = 'block'; // Show the score display
+
 }
 // Counts the amout of answers done correctly
 let correctAnswers = 0;
-quizQuestions.forEach (question => {
+quizQuestions.forEach(question => {
     question.answers.forEach(answer => {
         if (answer.correct) {
             correctAnswers++;
