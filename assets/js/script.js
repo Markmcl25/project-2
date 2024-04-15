@@ -1,4 +1,4 @@
-// Score variable
+// Initialize score variable
 let score = 0;
 
 // Event listener for start button
@@ -10,9 +10,7 @@ const instructionsArea = document.querySelector('.instructions-area');
 const questionContainer = document.getElementById("question");
 const scoreDisplay = document.getElementById("score");
 
-
 let currentQuestionIndex = 0;
-
 
 startButton.addEventListener('click', () => {
     instructionsArea.style.display = 'none';
@@ -43,7 +41,7 @@ function showQuestion() {
     answerButtons.innerHTML = ''; // Clear previous answer buttons
 
     // Create answer buttons for current question
-    currentQuestion.answers.forEach(answer => {
+    currentQuestion.answers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.textContent = answer.text;
         button.classList.add('button');
@@ -66,6 +64,11 @@ function showNextQuestion() {
         endQuiz(); // End the quiz if all questions have been answered
     }
 }
+
+// Event listener for the "Next" button
+nextButton.addEventListener('click', () => {
+    showNextQuestion();
+});
 
 // Function to end the quiz
 function endQuiz() {
