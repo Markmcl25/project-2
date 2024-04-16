@@ -73,6 +73,7 @@ body {
     background-color: #ffeead;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 
 /* Score display */
@@ -93,7 +94,10 @@ body {
 /* Hide answer indicator images by default */
 #answer-image {
     display: none;
-    margin: 0 auto;
+    margin: 10px auto;
+    height: auto;
+    max-width: 30px;
+    height: auto;
 }
 
 /* Customize the appearance of answer buttons */
