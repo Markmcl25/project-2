@@ -40,5 +40,11 @@ I chose the below colour scheme as it felt warm and fun.
 
 ![Colour scheme](assets/images/colour-scheme.png)
 
+### __Typography__
+
+I chose the Bungee Spice font as I felt it went well with the colours selected. I got the font from Google Fonts.
+
+![Font type](assets/images/font-choice-readme.png)
+
 
 
