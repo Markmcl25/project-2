@@ -64,14 +64,18 @@ function showQuestion() {
 }
 // function to show answer picture correct or incorrect
 function showAnswerImage(isCorrect) {
-    const answerImage = document.getElementById('answer-image');
+    const correctAnswerImage = document.getElementById('correct-answer-image');
+    const wrongAnswerImage = document.getElementById('wrong-answer-image');
+
     if (isCorrect) {
-        answerImage.src = '/workspace/project-2/assets/images/correct-answer.png';
+        correctAnswerImage.style.display = 'block'; // Display correct answer image
+        wrongAnswerImage.style.display = 'none'; // Hide wrong answer image
     } else {
-        answerImage.src = '/workspace/project-2/assets/images/wrong-answer.png'
+        correctAnswerImage.style.display = 'none'; // Hide correct answer image
+        wrongAnswerImage.style.display = 'block'; // Display wrong answer image
     }
-    answerImage.style.display = 'block';
 }
+
 
 // Function to show the next question or end the quiz
 function showNextQuestion() {

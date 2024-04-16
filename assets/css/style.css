@@ -93,12 +93,20 @@ body {
 
 /* Hide answer indicator images by default */
 #answer-image {
-    display: none;
+    display: block;
     margin: 10px auto;
     height: auto;
     max-width: 30px;
     height: auto;
+    text-align: center;
 }
+
+#correct-answer-image,
+#wrong-answer-image {
+    display: none; /* Make sure images are displayed as block elements */
+    margin: 0 auto; /* Center the images horizontally */
+}
+
 
 /* Customize the appearance of answer buttons */
 .button {
