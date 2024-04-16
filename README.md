@@ -29,4 +29,4 @@ Welcome to Knowledge Quest, an exhilarating online quiz that tests your knowledg
 
 I used Balsamiq to create wireframes for the page.
 
-![Introduction wireframe](/workspace/project-2/assets/images/wireframe-introduction.png)
+![Introduction wireframe](assets/images/wireframe-introduction.png)
