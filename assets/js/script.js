@@ -1,5 +1,6 @@
 // Initialize score variable
 let score = 0;
+let isFirstQuestionAnswered = false;
 
 // Event listener for start button
 const startButton = document.getElementById('start-button');
@@ -11,6 +12,9 @@ const questionContainer = document.getElementById("question");
 const scoreDisplay = document.getElementById("score");
 // Get reference to the answer image element
 const answerImage = document.getElementById("answer-image"); 
+
+// Initially disable the start button
+startButton.disabled = true;
 
 let currentQuestionIndex = 0;
 
@@ -34,6 +38,9 @@ document.querySelector(".create-username form").addEventListener("submit", funct
     // Hide create username section
     var createUsernameSection = document.querySelector(".create-username");
     createUsernameSection.style.display = "none";
+
+     // Enable the start button
+     startButton.disabled = false;
 });
 
 // Function to display current question
