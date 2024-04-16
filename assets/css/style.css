@@ -111,8 +111,11 @@ body {
 }
 
 /* 770px wide and below */
-@media screen and (max-width: 770px) {
-    .instructions-area {
-            margin: 100px auto;
+@media screen and (max-width: 600px) {
+    /* Move instructions and game areas up */
+    .instructions-area,
+    .game-area {
+        margin: 100px auto; /* Adjusted margin for better positioning */
     }
 }
+    
