@@ -123,6 +123,7 @@ body {
     border-radius: 10px; /* Add border radius */
 }
 
+
 /* 770px wide and below */
 @media screen and (max-width: 600px) {
     /* Move instructions and game areas up */
