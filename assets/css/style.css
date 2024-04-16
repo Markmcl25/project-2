@@ -93,6 +93,7 @@ body {
 /* Hide answer indicator images by default */
 #answer-image {
     display: none;
+    margin: 0 auto;
 }
 
 /* Customize the appearance of answer buttons */

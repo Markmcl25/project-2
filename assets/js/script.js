@@ -9,6 +9,8 @@ const nextButton = document.getElementById("next");
 const instructionsArea = document.querySelector('.instructions-area');
 const questionContainer = document.getElementById("question");
 const scoreDisplay = document.getElementById("score");
+// Get reference to the answer image element
+const answerImage = document.getElementById("answer-image"); 
 
 let currentQuestionIndex = 0;
 
@@ -49,19 +51,24 @@ function showQuestion() {
         button.addEventListener('click', () => {
             if (answer.correct) {
                 score++; // Increment score if the answer is correct
+                showAnswerImage(true); // Display correct answer image
+
+            } else {
+
+                showAnswerImage(false); // Display incorrect answer image
             }
             showNextQuestion();
         });
         answerButtons.appendChild(button);
     });
 }
-// function to show answer picture
+// function to show answer picture correct or incorrect
 function showAnswerImage(isCorrect) {
     const answerImage = document.getElementById('answer-image');
     if (isCorrect) {
-        answerImage.src = 'assets/images/correct-answer.png';
+        answerImage.src = '/workspace/project-2/assets/images/correct-answer.png';
     } else {
-        answerImage.src = 'assets/images/wrong-answer.png'
+        answerImage.src = '/workspace/project-2/assets/images/wrong-answer.png'
     }
     answerImage.style.display = 'block';
 }
