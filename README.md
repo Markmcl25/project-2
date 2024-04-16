@@ -1,7 +1,7 @@
 # __Knowledge Quest: The Ultimate Quiz Adventure - Portfolio Project 2__
 Welcome to Knowledge Quest, an exhilarating online quiz that tests your knowledge across a diverse array of topics. Dive into this engaging experience where you can challenge yourself with 20 multiple-choice questions covering various subjects. With Knowledge Quest, embark on a journey to discover new facts, sharpen your intellect, and enjoy the thrill of learning in a fun and interactive way. 
 
-**Aims:**
+## **Aims:**
 
 **Educational Engagement:** Knowledge Quest aims to provide an educational and entertaining platform where users can enhance their knowledge while enjoying themselves.
 
@@ -29,4 +29,16 @@ Welcome to Knowledge Quest, an exhilarating online quiz that tests your knowledg
 
 I used Balsamiq to create wireframes for the page.
 
-![Introduction wireframe](assets/images/wireframe-introduction.png)![Question wireframe](assets/images/wireframe-question.png)
+![Introduction wireframe](assets/images/wireframe-introduction.png)    ![Question wireframe](assets/images/wireframe-question.png)
+
+## **Design**
+
+
+### __Colour scheme__
+
+I chose the below colour scheme as it felt warm and fun.
+
+![Colour scheme](assets/images/colour-scheme.png)
+
+
+
