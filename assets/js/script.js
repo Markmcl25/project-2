@@ -73,14 +73,18 @@ function showQuestion() {
 function showAnswerImage(isCorrect) {
     const correctAnswerImage = document.getElementById('correct-answer-image');
     const wrongAnswerImage = document.getElementById('wrong-answer-image');
+    const answerText = document.getElementById('answer-text'); //text for answer result
 
     if (isCorrect) {
         correctAnswerImage.style.display = 'block'; // Display correct answer image
         wrongAnswerImage.style.display = 'none'; // Hide wrong answer image
+        answerText.textContent = 'Last Answer was Correct'; //correct answer
     } else {
         correctAnswerImage.style.display = 'none'; // Hide correct answer image
         wrongAnswerImage.style.display = 'block'; // Display wrong answer image
+        answerText.textContent = 'Last Answer was Wrong'; // wrong answer
     }
+    answerText.style.display = 'block'; // Show the answer text
 }
 
 

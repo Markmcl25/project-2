@@ -10,9 +10,9 @@
     <meta name="keywords" content="online quiz, quiz, general knowledge, multiple choice">
 
     <!-- Favicon -->
-    <link rel="icon" type="Image/png" sizes="16x16" href="assets/images/favicon/question-solid.png" > 
-    <link rel="icon" type="Image/png" sizes="24x24" href="assets/images/favicon/question-solid.png" > 
-    <link rel="icon" type="Image/png" sizes="32x32" href="assets/images/favicon/question-solid.png" > 
+    <link rel="icon" type="Image/png" sizes="16x16" href="assets/images/favicon/question-solid.png">
+    <link rel="icon" type="Image/png" sizes="24x24" href="assets/images/favicon/question-solid.png">
+    <link rel="icon" type="Image/png" sizes="32x32" href="assets/images/favicon/question-solid.png">
     <!-- Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Font Awesome kit -->
@@ -85,9 +85,12 @@
         </div>
         <!-- Image to indicate correctness -->
         <div id="answer-image">
-            <img id="correct-answer-image" src="assets/images/correct-image-tiger.png" alt="Correct Answer">
-            <img id="wrong-answer-image" src="assets/images/incorrect-image-tiger.png" alt="Wrong Answer">
+            <img id="correct-answer-image" src="assets/images/correct-image-tiger.png" alt="Last Answer was Correct">
+            <img id="wrong-answer-image" src="assets/images/incorrect-image-tiger.png" alt="Last Answer was Wrong">
         </div>
+
+        <!-- Text indicating correctness -->
+        <p id="answer-text"></p>
     </div>
 
     <!--score-display-->
