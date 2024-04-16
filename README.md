@@ -46,5 +46,21 @@ I chose the Bungee Spice font as I felt it went well with the colours selected. 
 
 ![Font type](assets/images/font-choice-readme.png)
 
+## **Features:**
+
+![Username and begin quiz](assets/images/features-1.png)
+Create username and then begin the quiz with the buttons shown above.
+
+![Answer buttons](assets/images/features-2.png)
+Answer the questions by choosign one of the buttons above.
+
+![Correct answer](assets/images/correct-answer-readme.png)
+If the correct answer is picked the graphic above is shown.
+
+![Incorrect answer](assets/images/incorrect-readme.png)
+If the incorrect answer is picked the graphic above is shown.
+
+![Final score](assets/images/final-score-readme.png)
+Final score shown on last page.
 
 
