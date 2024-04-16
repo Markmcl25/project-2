@@ -12,3 +12,15 @@ Welcome to Knowledge Quest, an exhilarating online quiz that tests your knowledg
 **Feedback Mechanism:** Users receive immediate feedback on their responses, allowing them to track their progress and learn from their mistakes.
 
 **User-Friendly Experience:** Knowledge Quest offers a user-friendly interface, making it accessible and enjoyable for users of all ages and backgrounds.
+
+**How It Works:** Users begin by creating a username to personalize their quiz experience.
+
+**Quiz Interface:** The quiz interface presents users with a series of multiple-choice questions, each accompanied by four answer options.
+
+**Answer Selection:** Users select their answers by clicking on the corresponding buttons.
+
+**Immediate Feedback:** Upon selecting an answer, users receive immediate feedback indicating whether their response was correct or incorrect.
+
+**Score Tracking:** The quiz tracks users' scores as they progress through the questions, providing a final score at the end of the quiz
+
+**End of Quiz:** After completing all questions, users receive their final score.
