@@ -24,3 +24,9 @@ Welcome to Knowledge Quest, an exhilarating online quiz that tests your knowledg
 **Score Tracking:** The quiz tracks users' scores as they progress through the questions, providing a final score at the end of the quiz
 
 **End of Quiz:** After completing all questions, users receive their final score.
+
+### __Wireframes__
+
+I used Balsamiq to create wireframes for the page.
+
+![Introduction wireframe](/workspace/project-2/assets/images/wireframe-introduction.png)
