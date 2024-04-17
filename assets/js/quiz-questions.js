@@ -163,7 +163,6 @@ const quizQuestions = [
             { text: "6" }
         ]
     },
-
     {
         question: "Name the painter who painted Mona Lisa.",
         answers: [
@@ -173,7 +172,6 @@ const quizQuestions = [
             { text: "Claude Monet" }
         ]
     },
-
     {
         question: "Name the coldest place in the world.",
         answers: [

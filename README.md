@@ -49,18 +49,46 @@ I chose the Bungee Spice font as I felt it went well with the colours selected. 
 ## **Features:**
 
 ![Username and begin quiz](assets/images/features-1.png)
+
 Create username and then begin the quiz with the buttons shown above.
 
 ![Answer buttons](assets/images/features-2.png)
+
 Answer the questions by choosign one of the buttons above.
 
 ![Correct answer](assets/images/correct-answer-readme.png)
+
 If the correct answer is picked the graphic above is shown.
 
 ![Incorrect answer](assets/images/incorrect-readme.png)
+
 If the incorrect answer is picked the graphic above is shown.
 
 ![Final score](assets/images/final-score-readme.png)
+
 Final score shown on last page.
 
+## **Technologies and languages used**
 
+* Github - Used for storage of my site and for publishing online. 
+* HTML5 - The core of the site was built with HTML version 5.
+* CSS - CSS was used to style the website and define fonts and layout.
+* Python - Used python 3 via the terminal to preview my site using a local http server.
+
+## **Deployment and local development**
+
+I deployed everything my website onto gitpages.
+
+How to Clone Log into your account on github:
+
+Go to the repository of this project [Quiz Project](https://github.com/Markmcl25/project-2.git) Click on the code button, and copy your preferred clone link. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+## **Validating**
+
+I tested the code using Nu Html Checker.
+
+![HTML checker](assets/images/html-check-passed.png)
+
+![css check](assets/images/css-check-passed.png)
+
+![css jigsaw](assets/images/jigsay-passes-css.png)
