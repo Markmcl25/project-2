@@ -12,6 +12,24 @@ const questionContainer = document.getElementById("question");
 const scoreDisplay = document.getElementById("score");
 // Get reference to the answer image element
 const answerImage = document.getElementById("answer-image"); 
+// restart button
+const restartButton = document.getElementById('restart-button');
+restartButton.addEventListener('click', () => {
+    // Reset the quiz state
+    score = 0;
+    currentQuestionIndex = 0;
+    isFirstQuestionAnswered = false;
+
+    // Clear any displayed score
+    scoreDisplay.textContent = '';
+
+    // Hide the restart button
+    restartButton.style.display = 'none';
+
+    // Restart the quiz
+    instructionsArea.style.display = 'block';
+    gameArea.style.display = 'none';
+});
 
 // Initially disable the start button
 startButton.disabled = true;
@@ -49,7 +67,6 @@ function showQuestion() {
     questionContainer.textContent = currentQuestion.question;
     answerButtons.innerHTML = ''; // Clear previous answer buttons
 
-
     // Create answer buttons for current question
     currentQuestion.answers.forEach((answer, index) => {
         const button = document.createElement('button');
@@ -86,7 +103,6 @@ function showAnswerImage(isCorrect) {
     }
     answerText.style.display = 'block'; // Show the answer text
 }
-
 
 // Function to show the next question or end the quiz
 function showNextQuestion() {
