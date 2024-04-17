@@ -92,3 +92,18 @@ I tested the code using Nu Html Checker.
 ![css check](assets/images/css-check-passed.png)
 
 ![css jigsaw](assets/images/jigsay-passes-css.png)
+
+## **Testing**
+
+Each device tested the site using the following browsers:
+
+Google Chrome, Firefox.
+
+## **Credits**
+
+* Font Awesome - Social Media icons from Font Awesome.
+* Google Chrome - The website was built and tested in google Chrome.
+* Google font - For the font within the quiz.
+* Wordpress.com - For markdown info and tips.
+* Balsamiq.cloud - For the wireframes. 
+* Vectezzy.com - Images for correct/ incorrect answer
