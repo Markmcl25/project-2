@@ -192,6 +192,4 @@ const quizQuestions = [
             { text: "15" }
         ]
     },
-    
-
 ]
